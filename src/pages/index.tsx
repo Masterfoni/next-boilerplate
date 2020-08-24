@@ -5,6 +5,8 @@ type Props = {
   title: string;
 };
 
+const foo = 'jackson';
+
 export default function Home({ title = 'Commerce Application' }: Props) {
   return (
     <div className={styles.container}>
