@@ -43,7 +43,7 @@
   "lint-staged": {
     "src/**/*": [
       "eslint src --max-warnings=10 --fix",
-      "npm run test --bail"
+      "npm run test -- --findRelatedTests --bail"
     ]
   }
 }
