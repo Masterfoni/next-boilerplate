@@ -7,7 +7,7 @@ type Props = {
 
 const foo = 'jackson';
 
-export default function Home({ title = 'Commerce Application' }: Props) {
+export default function Home({ title = 'Application' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +17,7 @@ export default function Home({ title = 'Commerce Application' }: Props) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Estus Commerce!</a>
+          Welcome to <a href="https://nextjs.org">this boilerplate!</a>
         </h1>
 
         <p className={styles.description}>
