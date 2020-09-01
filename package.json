@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=10"
+    "lint": "eslint src --max-warnings=10",
+    "test": "jest"
   },
   "dependencies": {
     "eslint-plugin-prettier": "^3.1.4",
@@ -15,6 +16,8 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.12",
     "@types/node": "^14.6.0",
     "@types/react": "^16.9.46",
     "@typescript-eslint/eslint-plugin": "^3.9.1",
@@ -24,6 +27,7 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.0",
     "husky": "^4.2.5",
+    "jest": "^26.4.2",
     "lint-staged": ">=10",
     "prettier": "2.1.0",
     "typescript": "^4.0.2"
@@ -34,6 +38,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*": ["eslint src --max-warnings=10 --fix"]
+    "src/**/*": [
+      "eslint src --max-warnings=10 --fix"
+    ]
   }
 }
