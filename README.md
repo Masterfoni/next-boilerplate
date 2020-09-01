@@ -1,30 +1,39 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Next Boilerplate
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+This project is a template for building Next.js applications, containing my favourite stetup/structure for boosted start!
+
 ## Getting Started
 
-First, run the development server:
+###
+This repository was specifically made to be used as the base for a new Next.js project, fully configured with support for Eslint, Prettier, Jest, RTL, Typescript, Styled Components AND Husky pre-configured hooks to run all tests and code linting.
 
-```bash
-npm run dev
-# or
-yarn dev
+### How to use
+Currently, Github has an awesome guide on how to optimally use template projects [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+
+
+### First run
+
+After forking and downloading your own version of this boilerpalte, navigate to the repo folder and run:
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Thats it! All you gotta do now is run ``` npm run dev``` and open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## What I used?
 
-## Learn More
+- [React](https://reactjs.org/)
+- **Plugins and Libs**
+	- [Jest](https://jestjs.io/)
+	- [React-testing-library](https://testing-library.com/docs/react-testing-library/intro)
+	- [Styled Components](https://styled-components.com/)
+	- [Eslint](https://eslint.org/)
+	- [Prettier](https://prettier.io/)
+  - [Husky](https://github.com/typicode/husky)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
