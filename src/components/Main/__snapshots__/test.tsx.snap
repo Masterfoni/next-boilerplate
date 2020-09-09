@@ -66,7 +66,7 @@ exports[`<Main /> should render 1`] = `
     <img
       alt="A developer in front of a screen writing code"
       class="c4"
-      src="/img/hero-illustration.svg"
+      src="/img/dev-illustration.svg"
     />
   </main>
 </div>

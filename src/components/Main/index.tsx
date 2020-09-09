@@ -9,7 +9,7 @@ const Main = (): ReactElement => (
       {'TypeScript, ReactJS, NextJS and Styled Components'}
     </S.Description>
     <S.Illustration
-      src="/img/hero-illustration.svg"
+      src="/img/dev-illustration.svg"
       alt="A developer in front of a screen writing code"
     />
   </S.Wrapper>

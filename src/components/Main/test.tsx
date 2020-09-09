@@ -1,7 +1,5 @@
 import { render, screen } from '@testing-library/react';
-
 import Main from '.';
-import { EPERM } from 'constants';
 
 describe('<Main />', () => {
   it('should render', () => {
