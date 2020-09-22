@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Next Boilerplate
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Known Vulnerabilities](https://snyk.io/test/github/Masterfoni/next-boilerplate/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Masterfoni/next-boilerplate?targetFile=package.json) -
+[![Known Vulnerabilities](https://snyk.io/test/github/Masterfoni/next-boilerplate/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Masterfoni/next-boilerplate?targetFile=package.json)
 
 This project is a template for building Next.js applications, containing my favourite stetup/structure for boosted start!
 
