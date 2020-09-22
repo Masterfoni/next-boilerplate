@@ -1,4 +1,4 @@
-import * as S from './styles';
+import * as S from './Main.styles';
 import { ReactElement } from 'react';
 
 type Props = {

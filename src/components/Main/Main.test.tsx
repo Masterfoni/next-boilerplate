@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Main from '.';
+import Main from './Main';
 
 describe('<Main />', () => {
   it('should render', () => {
