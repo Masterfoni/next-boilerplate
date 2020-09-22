@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Next Boilerplate
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Known Vulnerabilities](https://snyk.io/test/github/Masterfoni/next-boilerplate/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Masterfoni/next-boilerplate?targetFile=package.json) -
 
 This project is a template for building Next.js applications, containing my favourite stetup/structure for boosted start!
 
@@ -25,15 +26,28 @@ npm install
 
 Thats it! All you gotta do now is run ``` npm run dev``` and open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## What I used?
+## Useful out-of-the-box commands
 
+**OBS:** Since I used ``` npm ```,  all of the examples are running commands with ``` npm run ```, to use yarn just replace ``` npm run ``` with ``` yarn ``` on the execution of any command, also you will need to replace any ``` npm run ```occurrencies on ``` package.json ```
+
+### Generating components
+
+Running ``` npm run plop ``` will prompt asking for the component name or you can run ``` npm run plop mycomponent ``` and plop will generate your component under ``` src/components ```
+
+### Running tests
+
+You can either run ``` npm run test ``` or ``` npm run test:watch ``` to run jest with the watch flag.
+
+## What is included?
+
+- [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
-- **Plugins and Libs**
-	- [Jest](https://jestjs.io/)
-	- [React-testing-library](https://testing-library.com/docs/react-testing-library/intro)
-	- [Styled Components](https://styled-components.com/)
-	- [Eslint](https://eslint.org/)
-	- [Prettier](https://prettier.io/)
-  - [Husky](https://github.com/typicode/husky)
+- [Jest](https://jestjs.io/)
+- [React-testing-library](https://testing-library.com/docs/react-testing-library/intro)
+- [Styled Components](https://styled-components.com/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
+- [plop](https://plopjs.com/)
 
 ## License
